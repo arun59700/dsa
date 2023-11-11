@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html>
+    <body></body>
+    <h3>Enter an array from user and add all values ?</h3>
+    <pre><code>
+        #include <stdio.h>
+
+            int main() {
+                int n, sum = 0;
+            
+                // Prompt the user to enter the size of the array
+                printf("Enter the size of the array: ");
+                scanf("%d", &n);
+            
+                // Declare an array of size 'n'
+                int arr[n];
+            
+                // Prompt the user to enter the elements of the array
+                printf("Enter the elements of the array:\n");
+                for(int i = 0; i < n; i++) {
+                    scanf("%d", &arr[i]);
+                    sum += arr[i]; // Add the entered value to 'sum'
+                }
+            
+                // Print the array
+                printf("Entered array: ");
+                for(int i = 0; i < n; i++) {
+                    printf("%d ", arr[i]);
+                }
+            
+                // Print the sum
+                printf("\nSum of array elements: %d\n", sum);
+            
+                return 0;
+            }
+            
+   
+        
+
+</code></pre>
+<img src=" ">
+</body>
+</html>

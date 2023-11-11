@@ -1,0 +1,39 @@
+
+    <!DOCTYPE html>
+    <html>
+    <body></body>
+    <h3>2. Enter two Matrices from user, add the matrices and display the answer?</h3>
+    <pre><code>
+        #include <stdio.h>
+    
+            int main() {
+                int matrix[4][2];
+                int i, j;
+            
+                printf("Enter the elements of the matrix:\n");
+            
+                for (i = 0; i < 4; i++) {
+                    for (j = 0; j < 2; j++) {
+                        scanf("%d", &matrix[i][j]);
+                    }
+                }
+            
+                printf("\nHere is the matrix you entered in matrix format:\n");
+            
+                for (i = 0; i < 4; i++) {
+                    for (j = 0; j < 2; j++) {
+                        printf("%d ", matrix[i][j]);
+                    }
+                    printf("\n");
+                }
+            
+                return 0;
+            }
+    
+        
+        
+
+</code></pre>
+<img src="../2d array/output/Q2.jpg">
+</body>
+</html>
